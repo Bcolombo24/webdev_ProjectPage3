@@ -366,3 +366,10 @@ section ul {
     color: #e6e6e6;
     font-family: "Helvetica", "Arial", sans-serif;
 }
+
+@media (max-width: 900px){
+    .about-grid{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}

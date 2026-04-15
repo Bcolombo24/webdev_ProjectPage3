@@ -378,6 +378,10 @@ section ul {
     filter: invert(1) hue-rotate(180deg);
 }
 
+.dark-mode * {
+    color: inherit;
+}
+
 .dark-mode main{
     background: #1e1e1e;
     color: white;

@@ -1,5 +1,5 @@
 function welcomeMessage(){
-    alert("Welcome to my super mega awesome website! Enjoy your stay😎");
+    alert("Who are the Patriots? La-Li-Lu-Le-Lo");
 }
 
 function toggleDarkMode(){

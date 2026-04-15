@@ -373,3 +373,15 @@ section ul {
         gap: 15px;
     }
 }
+
+.dark-mode{
+    background: #121212;
+    color: white;
+}
+
+.dark-mode main{
+    background: #1e1e1e;
+}
+.dark-mode .navbar{
+    background: black;
+}

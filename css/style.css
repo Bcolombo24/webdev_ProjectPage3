@@ -375,31 +375,31 @@ section ul {
 }
 
 .dark-mode{
-    filter: invert(1) hue-rotate(180deg);
+    background: #121212;
+    color:#e6e6e6;
 }
 
-.dark-mode * {
-    color: inherit;
-}
-
-.dark-mode main{
-    background: #1e1e1e;
-    color: white;
+.dark-mode main, .dark-mode .card, .dark-mode .resume-container, .dark-mode .about-card{
+    background-color:#1e1e1e;
+    color:#e6e6e6;
 }
 
 .dark-mode .navbar{
-    background: black;
+    background:#111;
 }
 
-.dark-mode img,
-.dark-mode video{
-    filter: invert(1) hue-rotate(180deg);
+.dark-mode a{
+    color:#ffd90f;
 }
 
-.dark-mode main, .dark-mode .card, .dark-mode .resume-container, .dark-mode .about-card {
-    background-color: white;
+.dark-mode a:hover{
+    color:#ffffff;
 }
 
-.dark-mode svg{
-    filter: none;
+.dark-mode h1, .dark-mode h2{
+    color:#ffffff;
+}
+
+.dark-mode p{
+    color:#bbbbbb;
 }

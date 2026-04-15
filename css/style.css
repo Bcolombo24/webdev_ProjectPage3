@@ -392,6 +392,10 @@ section ul {
     filter: invert(1) hue-rotate(180deg);
 }
 
+.dark-mode main, .dark-mode .card, .dark-mode .resume-container, .dark-mode .about-card {
+    background-color: white;
+}
+
 .dark-mode svg{
     filter: none;
 }

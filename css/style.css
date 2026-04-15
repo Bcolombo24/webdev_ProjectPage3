@@ -375,13 +375,23 @@ section ul {
 }
 
 .dark-mode{
-    background: #121212;
-    color: white;
+    filter: invert(1) hue-rotate(180deg);
 }
 
 .dark-mode main{
     background: #1e1e1e;
+    color: white;
 }
+
 .dark-mode .navbar{
     background: black;
+}
+
+.dark-mode img,
+.dark-mode video{
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.dark-mode svg{
+    filter: none;
 }
